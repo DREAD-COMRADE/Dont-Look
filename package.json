@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "npx serve dist"
+    "start": "npx serve dist -l $PORT"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
